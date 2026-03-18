@@ -16,3 +16,76 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+.container {
+  max-width: 355px;
+  margin: 0 auto;
+}
+
+.controls {
+  display: flex;
+  gap: 8px;
+  margin-top: 32px;
+  width: 355px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.timer {
+  display: flex;
+  gap: 24px;
+  margin-top: 32px;
+  justify-content: center;
+    align-items: center;
+}
+
+.field {
+  display: flex;
+  align-items: center;  
+ flex-direction: column;
+  gap: 0px;
+}
+
+.value {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  color: #2e2f42;
+}
+
+.label {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #2e2f42;
+  text-transform: uppercase;
+}
+
+#datetime-picker {
+  padding: 8px 16px;
+  margin-right: 8px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+}
+
+button {
+  height: 40px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  background-color: #4e75ff;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #6c8cff;;
+}
+
+button:disabled{
+  background-color: #cfcfcf;
+  cursor: not-allowed;
+}
+
